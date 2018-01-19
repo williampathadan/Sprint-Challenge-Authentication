@@ -14,7 +14,9 @@ Session data are just like cookies whereas session data is stored on the server.
 
 * **JWT** is the short form of **JSON Web Token**. JWT is used to create token for authenticating users. Any data can be passed via JWT, and the token can be set to expire.
 
+
 ---
+
 
 
 ### 2. What does bcrypt do in order to prevent attacks?
@@ -24,7 +26,9 @@ Session data are just like cookies whereas session data is stored on the server.
 `bcrypt` is a one-way password hashing function. 
 Using a `salt` with bcrypt make attacks like *rainbow attacks* & *dictionary attacks* nearly impossible.
 
+
 ---
+
 
 
 ### 3. What are the three parts of the JSON Web Token?
@@ -33,5 +37,4 @@ Using a `salt` with bcrypt make attacks like *rainbow attacks* & *dictionary att
 
 JSON Web Token is in the format `xxxxx.yyyyy.zzzzz`, where `xxxxx` is **Header**, `yyyyy` is **Payload** and `zzzzz` is **Signature**.
 
-----
 
