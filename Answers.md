@@ -5,14 +5,14 @@
 
 **Answer**:
 
-**Middlewares** are functions that runs before the final function gets executed.
+* **Middlewares** are functions that runs before the final function gets executed.
 
-**Sessions** are instances which manages data that can only be accessed before that instance expires. 
+* **Sessions** are instances which manages data that can only be accessed before that instance expires. 
 Session data are just like cookies whereas session data is stored on the server.
 
-**bcrypt** is a function used for hashing password. Password hashing is a way to encrypt a password. In bcrypt, the data cannot be retrieved from the hash.
+* **bcrypt** is a function used for hashing password. Password hashing is a way to encrypt a password. In bcrypt, the data cannot be retrieved from the hash.
 
-**JWT** is the short form of **JSON Web Token**. JWT is used to create token for authenticating users. Any data can be passed via JWT, and the token can be set to expire.
+* **JWT** is the short form of **JSON Web Token**. JWT is used to create token for authenticating users. Any data can be passed via JWT, and the token can be set to expire.
 
 ---
 
@@ -21,7 +21,7 @@ Session data are just like cookies whereas session data is stored on the server.
 
 **Answer**:
 
-\t`bcrypt` is a one-way password hashing function. 
+⋅⋅⋅`bcrypt` is a one-way password hashing function. 
 Using a `salt` with bcrypt make attacks like *rainbow attacks* & *dictionary attacks* nearly impossible.
 
 ---
