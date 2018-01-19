@@ -21,7 +21,7 @@ Session data are just like cookies whereas session data is stored on the server.
 
 **Answer**:
 
-⋅⋅⋅`bcrypt` is a one-way password hashing function. 
+`bcrypt` is a one-way password hashing function. 
 Using a `salt` with bcrypt make attacks like *rainbow attacks* & *dictionary attacks* nearly impossible.
 
 ---
