@@ -17,8 +17,7 @@
 
 3. What are the three parts of the JSON Web Token?
 
-    **Answer**:
-    
+    **Answer**:    
        1. Header
        2. Payload
        3. Signature
