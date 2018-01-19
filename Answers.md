@@ -21,8 +21,8 @@ Session data are just like cookies whereas session data is stored on the server.
 
 **Answer**:
 
-`bcrypt` is a one-way password hashing function. 
-Using a `salt` with bcrypt make attacks like *rainbow attacks* & *dictionary attacks* nearly impossible.
+    `bcrypt` is a one-way password hashing function. 
+    Using a `salt` with bcrypt make attacks like *rainbow attacks* & *dictionary attacks* nearly impossible.
 
 ---
 
@@ -31,7 +31,7 @@ Using a `salt` with bcrypt make attacks like *rainbow attacks* & *dictionary att
 
 **Answer**: 
 
-JSON Web Token is in the format `xxxxx.yyyyy.zzzzz`, where `xxxxx` is **Header**, `yyyyy` is **Payload** and `zzzzz` is **Signature**.
+    JSON Web Token is in the format `xxxxx.yyyyy.zzzzz`, where `xxxxx` is **Header**, `yyyyy` is **Payload** and `zzzzz` is **Signature**.
 
 ----
 
